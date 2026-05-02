@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>For You 💛</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial;
+      background: #ffe6f0;
+      padding-top: 50px;
+    }
+
+    button {
+      padding: 12px;
+      margin: 10px;
+      border-radius: 12px;
+      border: none;
+      background: #ff6699;
+      color: white;
+      font-size: 16px;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>Hey… are you okay?</h1>
+
+<button onclick="msg1()">I'm sad</button>
+<button onclick="msg2()">Just tired</button>
+<button onclick="msg3()">Overthinking</button>
+
+<p id="text"></p>
+
+<script>
+function msg1() {
+  document.getElementById("text").innerHTML =
+  "It's okay to feel this way 💛 I'm here for you.";
+}
+
+function msg2() {
+  document.getElementById("text").innerHTML =
+  "You’ve been strong for too long. Rest a bit 🫂";
+}
+
+function msg3() {
+  document.getElementById("text").innerHTML =
+  "Your mind is loud, but you’re stronger than your thoughts 🌙";
+}
+</script>
+
+</body>
+</html>
